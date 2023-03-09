@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
+dotenv.config();
 const mongoose = require("mongoose");
 const app = require("./app");
-dotenv.config();
 
 const { MONGO_CONNECTION_STRING: mongoConnectionString, PORT } = process.env;
 
